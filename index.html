@@ -18,12 +18,16 @@
         name: 'Learner',
         age: 22
       }
-      handleClick(e){
-          console.log(e.target, e.pageY);
-      }
-      handleMouseHover(e){
-          console.log(e.target, e.pageX);
-      }
+      handleClick = (e) => {
+          this.setState({
+              name : "Noob"
+          });
+        }
+      handleMouseHover = (e) =>{
+          this.setState({
+              age : 26
+          });
+        }
       handleCopy(e){
           console.log("Make it your own");
       }
