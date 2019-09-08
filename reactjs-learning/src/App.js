@@ -6,7 +6,7 @@ function App() {
     <div className="App">
         <h1>React Learning</h1>
         <h4>My First React App</h4>
-        <Ninjas />
+        <Ninjas name= "Learner" age = "22" hobby = "learning" />
     </div>
   );
 }
